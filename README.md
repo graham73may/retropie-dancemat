@@ -16,8 +16,8 @@ Working with:
 
 Hotkey enabled = `Select`
 
-Once you've pressed the hotkey, then press: 
-Exit = `Start`
+Once you've pressed the hotkey, then press:   
+Exit = `Start`  
 Open RGUI Menu = `△`
 
 # Controller config
