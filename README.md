@@ -1,3 +1,9 @@
+# Retropie 3B
+
+Working with: 
+- Dancing Stage Euromix
+- Dance Dance Revolution
+
 # Retropie Dance Mat Config
 
 | SELECT       | #########    | START         |
@@ -7,6 +13,7 @@
 | △ = S / 4    | ↧ = 1 / down | □ = A / 5     |
 
 # Hotkeys
+
 Hotkey enabled = `Select`
 
 Once you've pressed the hotkey, then press: 
@@ -14,6 +21,9 @@ Exit = `Start`
 Open RGUI Menu = `△`
 
 # Controller config
+
+File: ``
+
 ```
 
 ```
