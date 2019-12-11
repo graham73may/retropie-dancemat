@@ -48,6 +48,8 @@ input_exit_emulator_btn = "9"
 # Recommended optimisations (I didn't need these)
 From: https://www.reddit.com/r/RetroPie/comments/6s5io3/update_the_great_ddr_project_got_it_working/
 
+For game specific configs create a file in your ROM folder, e.g. : `/opt/retropie/configs/psx/exact-rom-name-here.bin.cfg`
+
 ```
 # Settings made here will only override settings in the global retroarch.cfg if placed above the #include line
 
@@ -71,3 +73,22 @@ https://www.ebay.co.uk/itm/USB-Dancing-Mat-For-PC-Video-Games-Gaming-DDR-Dance-P
 
 - USB connector
 - Came with a "Stepmania" CD ROM that you can chuck in the bin
+
+# Cover Art
+Add your file to: `\\retropie\configs\all\emulationstation\downloaded_images\psx`
+
+Edit the EmulationStation gamelist.xml here: `\\retropie\configs\all\emulationstation\gamelists\psx\gamelist.xml`
+Add the `<image>` row so you end up with something like: 
+
+```
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Dancing Stage Euromix (Europe).cue</path>
+		<name>Dancing Stage Euromix (Europe)</name>
+		<playcount>1</playcount>
+		<lastplayed>20191211T193235</lastplayed>
+		<image>/opt/retropie/configs/all/emulationstation/downloaded_images/psx/dancing-stage-euromix.jpg</image>
+	</game>
+</gameList>
+```
