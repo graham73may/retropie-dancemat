@@ -2,6 +2,8 @@
 
 Working with: 
 - Dancing Stage Euromix
+- Dancing Stage Fever
+- Dancing Stage Fusion
 - Dance Dance Revolution
 
 # Retropie Dance Mat Config
@@ -75,6 +77,8 @@ https://www.ebay.co.uk/itm/USB-Dancing-Mat-For-PC-Video-Games-Gaming-DDR-Dance-P
 - Came with a "Stepmania" CD ROM that you can chuck in the bin
 
 # Cover Art
+If auto scraping files, follow these instructions: 
+
 Add your file to: `\\retropie\configs\all\emulationstation\downloaded_images\psx`
 
 Edit the EmulationStation gamelist.xml here: `\\retropie\configs\all\emulationstation\gamelists\psx\gamelist.xml`
